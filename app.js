@@ -1,7 +1,7 @@
 const dotenv = require('dotenv');
 dotenv.config();
 
-const port = process.env.PORTHOST ||3000;
+let port = process.env.PORT || 3000 ||5400;
 
 const express = require('express');
 const app = express();
