@@ -5,7 +5,6 @@ const config = {
   database: process.env.DATABASE,
   user:process.env.USERDATABASE,
   password:process.env.PASSWORD,
-  port: process.env.PORT
 }
 
 console.log(config)
