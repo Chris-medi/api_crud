@@ -19,8 +19,11 @@ const router  = require('./routers/router');
 
 app.use('/person',router)
 
-
-
+app.get('/',(req,res)=>{
+    res.json({
+        Message: "welcome to api project"
+    })
+})
 
 app.listen(port,(err)=>{
     if(err){
