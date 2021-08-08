@@ -8,7 +8,7 @@ const config = {
   port: process.env.PORT
 }
 
-//console.log(config)
+console.log(config)
 
 
 var connection = mysql.createConnection(config)
